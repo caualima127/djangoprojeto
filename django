@@ -1,0 +1,93 @@
+#desafio django   
+class Produtos:
+    def __init__(codigo,valor,quantidade,descricao,validade):
+      self.codigo = codigo
+      self.valor = valor
+      self.quantidade = quantidade
+      self.descricao = descricao
+      self.validade = validade
+
+    def inserir(self):
+      pass
+    def excluir(self):
+      pass
+    def alterar(self):
+      pass
+    def consultar(self):
+      pass
+
+class NotaFiscal:
+    def __init__(codigo,data,valortotal,cpf,cnpj):
+      self.codigo = codigo
+      self.data = data
+      self.valortotal = valortotal
+      self.cpf = cpf
+      self.cnpj = cnpj
+
+    def inserir(self):
+      pass
+    def excluir(self):
+      pass
+    def alterar(self):
+      pass
+    def consultar(self):
+      pass
+
+
+
+class Cliente:
+  def __init__(codigo, nome, endereço, cidade,telefone):
+    self.codigo = codigo
+    self.nome = nome
+    self.endereço = endereço
+    self.cidade = cidade
+    self.estado = estado
+    self.cep = cep
+    self.telefone = telefone
+
+  def inserir(self):
+    pass
+  def excluir(self):
+    pass
+  def alterar(self):
+    pass
+  def consultar(self):
+    pass
+
+
+
+class Fornecedor:
+  def __init__(codigo, cnpj, endereço, cidade,telefone):
+    self.codigo = codigo
+    self.cnpj = cnpj
+    self.endereço = endereço
+    self.cidade = cidade
+    self.telefone = telefone
+
+    def inserir(self):
+      pass
+    def excluir(self):
+      pass
+    def alterar(self):
+      pass
+    def consultar(self):
+      pass  
+
+
+
+class Funcionario:
+  def __init__(codigo,nome,funcao,salario,cpf):
+    self.codigo = codigo
+    self.nome = nome
+    self.funcao = funcao
+    self.salario = salario
+    self.cpf = cpf
+
+  def inserir(self):
+    pass
+  def excluir(self):
+    pass
+  def alterar(self):
+    pass
+  def consultar(self):
+    pass
